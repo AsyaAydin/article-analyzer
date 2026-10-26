@@ -10,6 +10,7 @@ dependencies = [
     "psycopg[binary]>=3.3.6",
     "pymupdf>=2.0",
     "python-dotenv>=1.2.4",
+    "tokenizers>=0.23.3",
 ]
 
 [project.scripts]
