@@ -11,7 +11,7 @@ TOKENIZER = Tokenizer.from_pretrained("BAAI/bge-small-en-v1.5")
 MAX_TOKENS = 350
 OVERLAP_TOKENS = 50
 MIN_TOKENS = 25
-
+BIB_NAME = re.compile(r"[A-Z][a-z]+, [A-Z]\.")
 HEADING = re.compile(r"^#{1,6}\s+(.*)$", flags=re.MULTILINE)
 SENTENCE_END = re.compile(r"(?<=[.!?])\s+")
 SKIP_SECTIONS = re.compile(
@@ -106,7 +106,7 @@ def chunk_paper(md: str) -> list[dict]:
             continue
         for body in pack(split_units(text)):
             n = count_tokens(body)
-            if n >= MIN_TOKENS:
+            if n >= MIN_TOKENS and len(BIB_NAME.findall(body)) < 8:
                 chunks.append({"section": section, "content": body, "n_tokens": n})
     return chunks
 
