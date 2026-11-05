@@ -1,0 +1,22 @@
+{"id": "q01", "question": "Which neural network methods are used for simulation-based inference of reionization parameters from 3D 21 cm light-cones?", "relevant": ["2105.03344", "2310.17602"]}
+{"id": "q02", "question": "How can radio-frequency interference be detected in 21 cm observations?", "relevant": ["2408.14588", "2607.03606", "2311.03023"]}
+{"id": "q03", "question": "How can the chi-squared statistic from redundant calibration be used to find faint RFI?", "relevant": ["2408.14588"]}
+{"id": "q04", "question": "What is the transient RFI environment of LOFAR's low band antennas around 72-75 MHz?", "relevant": ["2311.03023"]}
+{"id": "q05", "question": "How can machine learning help the SKA study Cosmic Dawn and the Epoch of Reionization?", "relevant": ["2607.03606"]}
+{"id": "q06", "question": "How do Bayesian neural network emulators of the 21 cm power spectrum and bispectrum quantify their own uncertainty?", "relevant": ["2508.13261"]}
+{"id": "q07", "question": "Which emulators have been built for the semi-numerical reionization code SCRIPT?", "relevant": ["2311.04556", "2511.16256"]}
+{"id": "q08", "question": "How can deep learning be used for likelihood-free parameter inference from 21 cm forest observations?", "relevant": ["2407.14298"]}
+{"id": "q09", "question": "How is simulation-based inference applied to the sky-averaged 21 cm signal with REACH?", "relevant": ["2403.14618"]}
+{"id": "q10", "question": "How can normalizing flows constrain the reionization history?", "relevant": ["2005.07694"]}
+{"id": "q11", "question": "What is the 3D ScatterNet and how is it used for inference from 21 cm light-cones?", "relevant": ["2307.09530"]}
+{"id": "q12", "question": "What constraints can the 21 cm signal place on s-wave dark matter annihilation when subhalos are included?", "relevant": ["2609.21479"]}
+{"id": "q13", "question": "How is the receiver calibrated in the CosmoCube space mission for the 21 cm global spectrum?", "relevant": ["2510.06558"]}
+{"id": "q14", "question": "How does random permutation improve convolutional neural networks for cosmological fields?", "relevant": ["2403.01368"]}
+{"id": "q15", "question": "Can a generative adversarial network predict 21 cm maps from the distribution of Lyman-alpha emitters?", "relevant": ["2004.09206"]}
+{"id": "q16", "question": "How can the integrated Sachs-Wolfe effect on the 21 cm background probe the global 21 cm signal?", "relevant": ["2308.14808"]}
+{"id": "p01", "question": "Can AI look at 3D maps of the early universe and tell us how the first stars changed the gas around them?", "relevant": ["2105.03344", "2310.17602"]}
+{"id": "p02", "question": "How do radio astronomers spot signals from TV stations and satellites that ruin their data?", "relevant": ["2408.14588", "2607.03606", "2311.03023"]}
+{"id": "p03", "question": "Is there a way to make slow simulations of the early universe faster with machine learning?", "relevant": ["2311.04556", "2511.16256", "2508.13261"]}
+{"id": "p04", "question": "Could a small radio telescope in space measure the faint glow of hydrogen from the cosmic dawn?", "relevant": ["2510.06558", "2403.14618"]}
+{"id": "q17", "question": "How are Gaussian processes used to separate foregrounds from the 21 cm signal?", "relevant": ["2307.13545", "2508.08235", "2511.10499", "2310.05608", "2407.11296"]}
+{"id": "p05", "question": "How do scientists remove the bright radio noise from our own galaxy to find the faint signal from the early universe?", "relevant": ["2307.13545", "2508.08235", "2511.10499", "2310.05608", "2407.11296", "2311.16633", "2412.16853", "2411.16899", "2608.09129", "2606.14682", "2605.10928", "2604.27465", "2603.25543", "2607.01048", "2610.06199", "2408.08949", "2509.02644", "1505.04146", "2310.06518", "2405.02806", "2307.12826", "2308.08284"]}
